@@ -1,0 +1,1 @@
+I'm a basic counter holding a value. You can increment or decrement me.

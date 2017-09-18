@@ -1,0 +1,13 @@
+CGOProject {
+	#description : 'A simple counter project. You can increment it, decrement it and get the value from the counter.',
+	#version : '0.1.0-dev',
+	#name : #Counter,
+	#repository : CGOGitRepository {
+		#repositoryUrl : 'git@github.com:peteruhnak/pharo-counter.git',
+		#subdirectory : ''
+	},
+	#unitNames : [
+		#Counter-Core,
+		#Counter-Tests
+	]
+}

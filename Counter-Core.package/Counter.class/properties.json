@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "ChristopheDemarey 11/25/2016 16:03",
+	"super" : "Object",
+	"category" : "Counter-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "Counter",
+	"type" : "normal"
+}

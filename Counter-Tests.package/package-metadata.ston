@@ -1,0 +1,16 @@
+CGOPackageUnit {
+	#description : 'Test package of the counter implementation.',
+	#version : '0.1.0-dev',
+	#package : #Counter-Tests,
+	#timestamp : DateAndTime [ '2017-09-18T12:39:06.385712+02:00' ],
+	#src : CGOGitHostedPackageVersion {
+		#repository : CGOGitRepository {
+			#repositoryUrl : 'git@github.com:peteruhnak/pharo-counter.git',
+			#subdirectory : ''
+		},
+		#packageName : #Counter-Tests
+	},
+	#dependencies : [
+		#Counter-Core : [ ]
+	]
+}
